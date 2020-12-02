@@ -1,4 +1,4 @@
-const shared = require('../shared');
+const shared = require('../common/base.js');
 
 const report = shared.getNumericInput();
 

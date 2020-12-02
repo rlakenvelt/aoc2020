@@ -1,4 +1,4 @@
-const shared = require('../shared');
+const shared = require('../common/base');
 
 const passwords = shared.getInput();
 shared.start("day 2B");
