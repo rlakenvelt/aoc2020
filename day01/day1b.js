@@ -2,7 +2,7 @@ const shared = require('../shared');
 
 const report = shared.getNumericInput();
 
-shared.start("day 1A");
+shared.start("day 1B");
 let answer = 0;
 report.some((value, index) => {
     report.some((value2, index2) => {
