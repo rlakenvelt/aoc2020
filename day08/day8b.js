@@ -2,7 +2,7 @@
 const shared = require('../common/base.js');
 const computer = require('../common/computer.js');
 
-let answer = 6;
+let answer = 0;
 shared.start("day 8B");
 const program = shared.getInput()
                       .map(a => {

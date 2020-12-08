@@ -16,7 +16,7 @@ seatIDs = seats.reduce((list, seat) => {
                     return list;
                 }, [])
                 .sort((a, b) => b-a);
-answer = seatIDs.sort((a, b) => b-a)[0];                
+answer = seatIDs[0];                
 
 shared.end(answer);
 
