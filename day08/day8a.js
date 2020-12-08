@@ -9,11 +9,11 @@ const program = shared.getInput()
                           const line = a.split(' ');
                           return {instruction: line[0], value: parseInt(line[1])};
                       });
-let comp = Object.create(computer.computer);
+const vm = Object.create(computer.computer);
 
-comp.load(program);
-comp.run();
-answer = comp.getAccumulator();
+vm.load(program);
+vm.run();
+answer = vm.getOutput();
 
 shared.end(answer);
 

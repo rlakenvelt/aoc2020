@@ -7,7 +7,7 @@ const computer = {
     load(program) {
         this.program = [...program];
     },
-    getAccumulator() {
+    getOutput() {
         return this.accumulator;
     },
     hasError() {
@@ -42,5 +42,5 @@ const computer = {
         }
         this.execute(pointer);
     }
-  }
+}
 module.exports = { computer };

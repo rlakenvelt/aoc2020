@@ -9,7 +9,7 @@ const program = shared.getInput()
                           const line = a.split(' ');
                           return {instruction: line[0], value: parseInt(line[1])};
                       });
-let comp = Object.create(computer.computer);
+const vm = Object.create(computer.computer);
 let lastChanged = -1;
 do {
     const changedProgram = program.map(x=>{ return {...x}});
@@ -24,12 +24,11 @@ do {
             break;
         }
     }
-    comp.load(changedProgram);
-    comp.run();
-    answer = comp.getAccumulator();
-    
+    vm.load(changedProgram);
+    vm.run();
+    answer = vm.getOutput();
 }
-while (comp.hasError() );
+while (vm.hasError() );
 
 
 shared.end(answer);
