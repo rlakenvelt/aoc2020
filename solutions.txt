@@ -1,0 +1,90 @@
+---------------------
+Puzzle   : day 1A
+Answer   : 100419
+Duration : 2 ms
+---------------------
+---------------------
+Puzzle   : day 1B
+Answer   : 265253940
+Duration : 93 ms
+---------------------
+---------------------
+Puzzle   : day 2A
+Answer   : 591
+Duration : 2 ms
+---------------------
+---------------------
+Puzzle   : day 2B
+Answer   : 335
+Duration : 3 ms
+---------------------
+---------------------
+Puzzle   : day 3A
+Answer   : 151
+Duration : 4 ms
+---------------------
+---------------------
+Puzzle   : day 3B
+Answer   : 7540141059
+Duration : 7 ms
+---------------------
+---------------------
+Puzzle   : day 4A
+Answer   : 250
+Duration : 4 ms
+---------------------
+---------------------
+Puzzle   : day 4B
+Answer   : 158
+Duration : 5 ms
+---------------------
+---------------------
+Puzzle   : day 5A
+Answer   : 826
+Duration : 2 ms
+---------------------
+---------------------
+Puzzle   : day 5B
+Answer   : 678
+Duration : 2 ms
+---------------------
+---------------------
+Puzzle   : day 6A
+Answer   : 6249
+Duration : 4 ms
+---------------------
+---------------------
+Puzzle   : day 6B
+Answer   : 3103
+Duration : 2 ms
+---------------------
+---------------------
+Puzzle   : day 7A
+Answer   : 372
+Duration : 48 ms
+---------------------
+---------------------
+Puzzle   : day 7B
+Answer   : 8015
+Duration : 2 ms
+---------------------
+---------------------
+Puzzle   : day 8A
+Answer   : 1797
+Duration : 1 ms
+---------------------
+---------------------
+Puzzle   : day 8B
+Answer   : 1036
+Duration : 11 ms
+---------------------
+---------------------
+Puzzle   : day 9A
+Answer   : 1721308972
+Duration : 4 ms
+---------------------
+---------------------
+Puzzle   : day 9B
+Answer   : 209694133
+Duration : 7 ms
+---------------------
