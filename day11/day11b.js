@@ -1,5 +1,4 @@
 
-const { getgid } = require('process');
 const shared = require('../common/base.js');
 
 let answer = 0;
