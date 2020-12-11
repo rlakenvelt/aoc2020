@@ -27,5 +27,43 @@ const getNumericInput = (separator = "\n") => {
   return getInput(separator).map(x => parseInt(x));
 };
 
-module.exports = { start, end, getInput, getNumericInput };
+const getGrid = () => {
+  const rows = getInput();
+  return rows.reduce((list, row) => {
+      list.push(row.split('')
+                   .reduce((list, value) => {
+                      list.push(value)
+                      return list;
+                   }, []));
+      return list;
+  }, []);
+}
+
+const showGrid  = (grid) => {
+  let rows = [...grid];
+  rows.forEach((row) => {
+      let showrow = row.join('');
+      console.log(showrow);
+  })
+}
+
+const copyGrid = (basegrid) => {
+  const copiedGrid = [...basegrid].map(row => [...row])
+  return copiedGrid;
+}
+
+const gridDirections = () => {
+    const directions = [];
+    directions.push({x: 0, y: -1});
+    directions.push({x: 0, y: 1});
+    directions.push({x: -1, y: 0});
+    directions.push({x: 1, y: 0});
+    directions.push({x: 1, y: -1});
+    directions.push({x: 1, y: 1});
+    directions.push({x: -1, y: -1});
+    directions.push({x: -1, y: 1});
+    return directions;
+}
+
+module.exports = { start, end, getInput, getNumericInput, getGrid, showGrid, copyGrid, gridDirections };
 
