@@ -2,7 +2,7 @@
 const shared = require('../common/base.js');
 
 let answer = 0;
-shared.start("day 15B");
+shared.start("day 15A");
 const input = shared.getInput(',');
 let spokenNumbers = input.reduce((list, number, index) => {
                              list[number] = {number: number, first: true, last: index, prev: 0};
