@@ -18,8 +18,8 @@ const end = (answer) => {
   console.log("---------------------");
 };
 
-const getInput = (separator = "\n") => {
-  const file = fs.readFileSync('./input.txt', "utf-8");
+const getInput = (separator = "\n", name="input") => {
+  const file = fs.readFileSync('./' + name + '.txt', "utf-8");
   return file.split(separator).map(x =>x);
 };
 
@@ -27,8 +27,8 @@ const getNumericInput = (separator = "\n") => {
   return getInput(separator).map(x => parseInt(x));
 };
 
-const getGrid = () => {
-  const rows = getInput();
+const getGrid = (separator = "\n", name="input") => {
+  const rows = getInput(separator, name);
   return rows.reduce((list, row) => {
       list.push(row.split('')
                    .reduce((list, value) => {
@@ -41,6 +41,7 @@ const getGrid = () => {
 
 const showGrid  = (grid) => {
   let rows = [...grid];
+  console.log('');
   rows.forEach((row) => {
       let showrow = row.join('');
       console.log(showrow);
