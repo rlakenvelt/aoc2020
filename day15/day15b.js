@@ -26,7 +26,6 @@ do {
         lastNumber.last  = index;
     }
     index++;
-    console.log(newNumber);
 } while (index < 30000000);
 answer=lastNumber.number;
 
