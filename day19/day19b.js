@@ -7,6 +7,13 @@ const rules = input[0].split('\n')
                       .map(analyseRules);
 const messages = input[1].split('\n');
 
+// Change rule 8 and 11
+let rule=getRule(8);
+rule.subruleSets = [[42],[42,8]];
+rule=getRule(11);
+rule.subruleSets = [[42, 31],[42,11,31]];
+
+
 answer = messages.reduce(countMatchingMessages, 0);
 
 shared.end(answer);
