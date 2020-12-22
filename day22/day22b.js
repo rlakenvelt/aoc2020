@@ -10,54 +10,40 @@ const deck  = shared.getInput('\n\n')
                         return x.map(x=>parseInt(x));
                     });
 
-let game=0;
-// console.log(deck);
-// console.log(calculateHash(deck));
 answer=calculateScore(playGame(deck));
 
 shared.end(answer);
 
-
-function playGame(playersCards) {
-    let round = 0;
+function playGame(decks) {
     let hashStack=[];
-    game++;
-    while (playersCards[0].length>0&&playersCards[1].length>0) {
-        const roundHash = calculateHash(playersCards);
-        let winner;
+    let winner;
+    while (decks[0].length>0&&decks[1].length>0) {
+        const hash = calculateHash(decks);
         let drawnCards=[];
-        round++;
-        // console.log('ROUND', round);
-        if (hashStack.includes(roundHash)) {
-            // console.log('PREVENT LOOP');
-            return [[...playersCards[0]],[]];
+        if (hashStack.includes(hash)) {
+            winner=0;
+            break;
         }
-        hashStack.push(roundHash);
-        drawnCards.push(playersCards[0].shift());
-        drawnCards.push(playersCards[1].shift());
-        if (drawnCards[0]<=playersCards[0].length&&drawnCards[1]<=playersCards[1].length) {
-            // console.log('GAME', game, 'ROUND', round, 'PLAY SUBGAME');
-            const subgameCards=playGame([[...playersCards[0]], [...playersCards[1]]]);
-            winner = (subgameCards[0]>subgameCards[1]?0:1);
+        hashStack.push(hash);
+        drawnCards.push(decks[0].shift());
+        drawnCards.push(decks[1].shift());
+        if (drawnCards[0]<=decks[0].length&&drawnCards[1]<=decks[1].length) {
+            winner = result=playGame([[...decks[0].slice(0, drawnCards[0])], [...decks[1].slice(0, drawnCards[1])]]).winner;
         } else {
-            winner = (drawnCards[0]>drawnCards[1]?0:1);
+            winner = (drawnCards[0]>drawnCards[1]?0:1);           
         }
         if (winner>0) drawnCards=drawnCards.reverse();
-        playersCards[winner]=[...playersCards[winner], ...drawnCards];
+        decks[winner]=[...decks[winner], ...drawnCards];
     }
-    return playersCards;
+    return {winner, deck: [...decks[winner]]};
 }
 
-function calculateScore(cards) {
-    console.log('FINAL', cards);
-    cards = cards.filter(cards=>cards.length>0)[0];
-    let l = cards.length;
-    let total = 0;
-    cards.forEach((card, index) => {
-        total+=card*l;
-        l--;
-    });
-    return total;
+function calculateScore(result) {
+    return result.deck
+                 .reverse()
+                 .reduce((total, card, index)=> {
+                     return total+=card*(index+1);
+                 }, 0);
 }
 
 function calculateHash(cards) { 
