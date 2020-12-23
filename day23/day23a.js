@@ -14,8 +14,7 @@ const TAKE=3;
 for (let count=1; count<=100; count++) {
     const part = cups.splice(1, TAKE);
     const destination=newDestination(cups[0], part);
-    const index = cups.indexOf(destination)+1;
-    cups.splice(index, 0, ...part);
+    cups.splice(cups.indexOf(destination)+1, 0, ...part);
     cups.push(cups.shift());
 }
 
