@@ -1,27 +1,27 @@
 ---------------------
 Puzzle   : day 1A
 Answer   : 100419
-Duration : 2 ms
+Duration : 9 ms
 ---------------------
 ---------------------
 Puzzle   : day 1B
 Answer   : 265253940
-Duration : 93 ms
+Duration : 94 ms
 ---------------------
 ---------------------
 Puzzle   : day 2A
 Answer   : 591
-Duration : 2 ms
+Duration : 4 ms
 ---------------------
 ---------------------
 Puzzle   : day 2B
 Answer   : 335
-Duration : 3 ms
+Duration : 2 ms
 ---------------------
 ---------------------
 Puzzle   : day 3A
 Answer   : 151
-Duration : 4 ms
+Duration : 6 ms
 ---------------------
 ---------------------
 Puzzle   : day 3B
@@ -31,17 +31,17 @@ Duration : 7 ms
 ---------------------
 Puzzle   : day 4A
 Answer   : 250
-Duration : 4 ms
+Duration : 5 ms
 ---------------------
 ---------------------
 Puzzle   : day 4B
 Answer   : 158
-Duration : 5 ms
+Duration : 6 ms
 ---------------------
 ---------------------
 Puzzle   : day 5A
 Answer   : 826
-Duration : 2 ms
+Duration : 3 ms
 ---------------------
 ---------------------
 Puzzle   : day 5B
@@ -51,7 +51,7 @@ Duration : 2 ms
 ---------------------
 Puzzle   : day 6A
 Answer   : 6249
-Duration : 4 ms
+Duration : 6 ms
 ---------------------
 ---------------------
 Puzzle   : day 6B
@@ -61,7 +61,7 @@ Duration : 2 ms
 ---------------------
 Puzzle   : day 7A
 Answer   : 372
-Duration : 48 ms
+Duration : 51 ms
 ---------------------
 ---------------------
 Puzzle   : day 7B
@@ -71,7 +71,7 @@ Duration : 2 ms
 ---------------------
 Puzzle   : day 8A
 Answer   : 1797
-Duration : 1 ms
+Duration : 2 ms
 ---------------------
 ---------------------
 Puzzle   : day 8B
@@ -81,10 +81,170 @@ Duration : 11 ms
 ---------------------
 Puzzle   : day 9A
 Answer   : 1721308972
-Duration : 4 ms
+Duration : 6 ms
 ---------------------
 ---------------------
 Puzzle   : day 9B
 Answer   : 209694133
+Duration : 8 ms
+---------------------
+---------------------
+Puzzle   : day 10A
+Answer   : 1656
+Duration : 1 ms
+---------------------
+---------------------
+Puzzle   : day 10B
+Answer   : 56693912375296
+Duration : 0 ms
+---------------------
+---------------------
+Puzzle   : day 10B alternative
+Answer   : 56693912375296
+Duration : 1 ms
+---------------------
+---------------------
+Puzzle   : day 11A
+Answer   : 2329
+Duration : 111 ms
+---------------------
+---------------------
+Puzzle   : day 11B
+Answer   : 2138
+Duration : 153 ms
+---------------------
+---------------------
+Puzzle   : day 12A
+Answer   : 2458
+Duration : 1 ms
+---------------------
+---------------------
+Puzzle   : day 12B
+Answer   : 145117
+Duration : 0 ms
+---------------------
+---------------------
+Puzzle   : day 13A
+Answer   : 3035
+Duration : 1 ms
+---------------------
+---------------------
+Puzzle   : day 13B
+Answer   : 725169163285238
+Duration : 0 ms
+---------------------
+---------------------
+Puzzle   : day 14A
+Answer   : 15018100062885
 Duration : 7 ms
+---------------------
+---------------------
+Puzzle   : day 14B
+Answer   : 5724245857696
+Duration : 381 ms
+---------------------
+---------------------
+Puzzle   : day 15A
+Answer   : 763
+Duration : 1 ms
+---------------------
+---------------------
+Puzzle   : day 15B
+Answer   : 1876406
+Duration : 5131 ms
+---------------------
+---------------------
+Puzzle   : day 16A
+Answer   : 19087
+Duration : 11 ms
+---------------------
+---------------------
+Puzzle   : day 16B
+Answer   : 1382443095281
+Duration : 122 ms
+---------------------
+---------------------
+Puzzle   : day 17A
+Answer   : 291
+Duration : 58 ms
+---------------------
+---------------------
+Puzzle   : day 17B
+Answer   : 1524
+Duration : 2134 ms
+---------------------
+---------------------
+Puzzle   : day 18A
+Answer   : 131076645626
+Duration : 12 ms
+---------------------
+---------------------
+Puzzle   : day 18B
+Answer   : 109418509151782
+Duration : 18 ms
+---------------------
+---------------------
+Puzzle   : day 19B
+Answer   : 165
+Duration : 40 ms
+---------------------
+---------------------
+Puzzle   : day 19B
+Answer   : 274
+Duration : 229 ms
+---------------------
+---------------------
+Puzzle   : day 20A
+Answer   : 21599955909991
+Duration : 16 ms
+---------------------
+---------------------
+Puzzle   : day 20B
+Answer   : 2495
+Duration : 42 ms
+---------------------
+---------------------
+Puzzle   : day 21A
+Answer   : 1930
+Duration : 2 ms
+---------------------
+---------------------
+Puzzle   : day 21B
+Answer   : spcqmzfg,rpf,dzqlq,pflk,bltrbvz,xbdh,spql,bltzkxx
+Duration : 9 ms
+---------------------
+---------------------
+Puzzle   : day 22A
+Answer   : 32162
+Duration : 2 ms
+---------------------
+---------------------
+Puzzle   : day 22B
+Answer   : 32534
+Duration : 22632 ms
+---------------------
+---------------------
+Puzzle   : day 23A
+Answer   : 26354798
+Duration : 1 ms
+---------------------
+---------------------
+Puzzle   : day 23B
+Answer   : 166298218695
+Duration : 738 ms
+---------------------
+---------------------
+Puzzle   : day 24A
+Answer   : 375
+Duration : 10 ms
+---------------------
+---------------------
+Puzzle   : day 24B
+Answer   : 3937
+Duration : 1450 ms
+---------------------
+---------------------
+Puzzle   : day 25A
+Answer   : 5414549
+Duration : 73 ms
 ---------------------
